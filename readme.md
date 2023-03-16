@@ -11,7 +11,7 @@ Install [Proto Buffers](https://protobuf.dev/downloads/) and add it to the path
 
 Compile the proto file to create the libraries
 ```
-protoc -I=./ --python_out=./ ./traj.proto
+protoc -I="." --python_out="." ./traj.proto
 ```
 
 Get the user key from the web API at https://openpositioning.org/docs
